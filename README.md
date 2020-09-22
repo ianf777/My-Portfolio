@@ -1,0 +1,2 @@
+# Homework-Number-2
+Second homework assignment, tasked to create a website that will serve as our portfolio. We were tasked to design it with a template for reference and utilize 3 htmls and 1 css with boostrap. Bootstrap enabled me to utilize many things such as a nav bar (which I used to connect 3 of my seperate pages together), a contact form, a footer, as well as a responsive web design that scales to the device being used to view it.

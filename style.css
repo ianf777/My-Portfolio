@@ -1,0 +1,95 @@
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.footer-text {
+    color: rgb(167, 167, 167);
+    margin-top: 30px;
+}
+body, html {
+    height: 100%;
+    text-align: center;
+}
+.bg {
+    background-image: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact {
+    font-size: 70px;
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    color: rgb(80, 108, 187);
+    font-weight: bold;
+    text-shadow: black 3px 3px;
+}
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+}
+.navbar {
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.container {
+}
+.selfie {
+    float: left;
+    padding-right: ;
+    border: black dashed;
+    border-radius: 15px;
+    margin-right: 10px;
+
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(80, 108, 187);
+    font-weight: bold;
+    padding-right: 150px;
+    text-shadow: 3px 3px black;
+}
+
+p {
+    margin-right: -15px;
+    text-align: left;
+
+}
+
+#PortfolioSection {
+    margin-top: 50px;
+}
+.Linkedin {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    border-width: 3px;
+    border-style: solid ;
+    border: rgb(80, 108, 187);
+    padding: 75px;
+    align-content: center;
+}
+.Instagram {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border: rgb(80, 108, 187);
+    padding: 75px;
+    align-content: center;
+}
+.lorem {
+    font-family:'Nunito', sans-serif;
+    float: initial;
+
+}
