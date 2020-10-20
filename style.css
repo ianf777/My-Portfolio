@@ -1,16 +1,35 @@
+body {
+    font-family:'Quicksand', sans-serif;
+    color: white
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 4px black;
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
+
 footer {
     position: fixed;
     height: 100px;
     bottom: 0;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(34, 34, 34);
     text-align: center;
     font-size: x-large;
     
 }
 .footer-text {
-    color: rgb(167, 167, 167);
+    color: white;
     margin-top: 30px;
+    text-shadow: 2px 2px black;
 }
 body, html {
     height: 100%;
@@ -25,7 +44,6 @@ body, html {
 }
 .contact {
     font-size: 70px;
-    font-family: 'Nunito', sans-serif;
     text-align: left;
     color: rgb(80, 108, 187);
     font-weight: bold;
@@ -37,28 +55,53 @@ margin-left: auto;
 }
 .navbar {
     font-size: xx-large;
-    font-family: 'Nunito', sans-serif;
     font-weight: bold;
     text-shadow: 5px 5px black;
-    font-family: 'Nunito', sans-serif;
     
 }
-.container {
-}
-.selfie {
-    float: left;
-    padding-right: ;
-    border: black dashed;
-    border-radius: 15px;
-    margin-right: 10px;
 
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
 }
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color:black;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+
 h1 {
-    font-family: 'Nunito', sans-serif;
-    color: rgb(80, 108, 187);
-    font-weight: bold;
-    padding-right: 150px;
-    text-shadow: 3px 3px black;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px black;
+    background-color: rgb(34, 34, 34)
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 5px 5px black;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-shadow: 4px 4px black;
+    text-align: center;
 }
 
 p {
@@ -71,25 +114,44 @@ p {
     margin-top: 50px;
 }
 .Linkedin {
-    font-family: 'Nunito', sans-serif;
     font-size: 50px;
     border-width: 3px;
     border-style: solid ;
     border: rgb(80, 108, 187);
-    padding: 75px;
+    padding: 20px;
     align-content: center;
+    border-radius: 20px;
 }
 .Instagram {
-    font-family: 'Nunito', sans-serif;
     font-size: 50px;
     border-width: 3px;
     border-style: solid;
     border: rgb(80, 108, 187);
-    padding: 75px;
+    padding: 20px;
     align-content: center;
+    border-radius: 20px;
 }
 .lorem {
     font-family:'Nunito', sans-serif;
     float: initial;
 
+}
+#myname {
+    font-weight: 900;
+    display: inline;
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(34, 34, 34);
+    border-radius: .3rem;
 }
